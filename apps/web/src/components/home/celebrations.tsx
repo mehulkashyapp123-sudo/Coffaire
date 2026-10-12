@@ -3,7 +3,7 @@ import { useState, type FormEvent } from 'react';
 import { images, phoneUrl, phone } from '@/data/site';
 import { Reveal } from '@/components/reveal';
 
-const enquiryUrl = `https://wa.me/918955325565?text=${encodeURIComponent(
+const enquiryUrl = `https://wa.me/918208656229?text=${encodeURIComponent(
 	'Hi Coffaire! I would like to enquire about a gathering or celebration at the café.',
 )}`;
 
