@@ -1,0 +1,2 @@
+import { images } from '@/data/site';
+export function MenuIntro() { return <section className="menu-intro"><img src={images.pizza} alt="Fresh Neapolitan Margherita pizza" width="800" height="600" fetchPriority="high" /><div className="menu-intro-shade" /><div className="wrap menu-intro-content"><span className="eyebrow light">COFFAIRE / THE MENU</span><h1>Good things,<br /><em>all in one place.</em></h1><p>From your first coffee to the last bite of pizza — explore what’s on the menu.</p></div></section>; }

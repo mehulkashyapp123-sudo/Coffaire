@@ -1,0 +1,5 @@
+import { Link } from 'react-router';
+import { ArrowUpRight } from 'lucide-react';
+import { images } from '@/data/site';
+const pizzas = ['Classic Margherita', 'Peppy Paneer', 'Truffle Mushroom', 'Quattro Formaggi', 'Butter Chicken', 'BBQ Chicken'];
+export function PizzaFeature() { return <section className="pizza-section" id="pizza"><div className="pizza-photo"><img src={images.pizza} alt="Freshly baked Neapolitan Margherita pizza with mozzarella and basil" width="800" height="600" loading="lazy" /><span className="pizza-photo-label">FRESH FROM THE MENU</span></div><div className="pizza-copy"><div className="pizza-copy-inner"><span className="eyebrow light">A SLICE OF SOMETHING GOOD</span><h2>Neapolitan Pizza,<br /><em>Made For Sharing.</em></h2><p>From familiar favourites to something a little different — find your kind of pizza at Coffaire.</p><div className="pizza-list">{pizzas.map((pizza, i) => <span key={pizza}><b>0{i+1}</b>{pizza}</span>)}</div><Link className="button button-cream" to="/menu?category=pizza">EXPLORE PIZZA MENU <ArrowUpRight size={18} /></Link></div></div></section>; }

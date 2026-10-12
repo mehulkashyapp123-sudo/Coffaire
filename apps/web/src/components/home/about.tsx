@@ -1,0 +1,4 @@
+import { images } from '@/data/site';
+export function About() {
+ return <section className="about-section section-pad" id="about"><div className="wrap about-grid"><div className="about-image-wrap"><img src={images.cafe} alt="Warm modern café interior with wood furniture and natural light" width="800" height="600" loading="lazy" /><span className="image-caption">01 / A PLACE TO PAUSE</span></div><div className="about-copy"><span className="eyebrow">THE COFFAIRE FEELING</span><h2>More Than<br /><em>Just Coffee.</em></h2><div className="small-rule" /><p>Coffaire, Your Daily Dose Cafe is a café and restaurant in Nagpur created around coffee, food and good moments. From espresso-based coffee and specialty beverages to Neapolitan pizza, matcha, cold brews and desserts, Coffaire brings together a menu designed for casual meetups, conversations and everyday café moments.</p><span className="about-signoff">Made for your everyday café moments.</span></div></div></section>;
+}
