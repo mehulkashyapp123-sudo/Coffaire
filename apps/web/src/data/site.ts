@@ -2,15 +2,12 @@ export const address = 'Shree Renuka Complex, Plot No. 95, Friends Colony Main R
 
 export const directionsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
 
-export const phone = '8955325565';
-export const phoneUrl = 'tel:+918955325565';
-
-export const email = 'mehulkumarkashyap.180103@gmail.com';
-export const emailUrl = `mailto:${email}`;
-
-export const whatsappUrl = `https://wa.me/918955325565?text=${encodeURIComponent('Hi! I have a question about my order.')}`;
-
-export const upiId = '8955325565@ybl';
+export const phone = '08208656229';
+export const phoneUrl = 'tel:+918208656229';
+export const email = '';
+export const emailUrl = '';
+export const whatsappUrl = `https://wa.me/918208656229?text=${encodeURIComponent('Hi! I have a question about Coffaire.')}`;
+export const upiId = '';
 export const images = {
   hero: 'https://images.hostinger.com/e583b084-6639-4665-b606-1b0161f30777.png',
   latte: 'https://images.hostinger.com/5763a701-5435-4f95-ad8c-69ed07d2e01e.png',

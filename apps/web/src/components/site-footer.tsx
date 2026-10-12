@@ -39,8 +39,10 @@ export function SiteFooter() {
 			.filter(Boolean)
 			.join('\n');
 
-		const whatsappNumber = phone.replace(/\D/g, '');
-		const whatsappLink = `https://wa.me/91${whatsappNumber}?text=${encodeURIComponent(
+		
+		
+		const whatsappNumber = '918208656229';
+		const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
 			enquiryMessage,
 		)}`;
 
