@@ -26,7 +26,7 @@ export function meta({ matches, location }: Route.MetaArgs) {
 				'@context': 'https://schema.org',
 				'@type': 'CafeOrCoffeeShop',
 				name: 'Coffaire, Your Daily Dose Cafe',
-				telephone: '+918955325565',
+				telephone: '+918208656229',
 				address: {
 					'@type': 'PostalAddress',
 					streetAddress: 'Shree Renuka Complex, Plot No. 95, Friends Colony Main Road, Katol Road',
