@@ -1,16 +1,21 @@
-export const address = 'Shree Renuka Complex, Plot No. 95, Friends Colony Main Road, Katol Road, Nagpur, Maharashtra 440013, India';
+export const address =
+  'Shree Renuka Complex, Plot No. 95, Friends Colony Main Road, Katol Road, Nagpur, Maharashtra 440013, India';
 
 export const directionsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
 
-export const phone = '8955325565';
-export const phoneUrl = 'tel:+918955325565';
+// Café owner's business contact details
+export const phone = '08208656229';
+export const phoneUrl = 'tel:+918208656229';
 
-export const email = 'mehulkumarkashyap.180103@gmail.com';
+// Replace this placeholder with the owner's actual business email
+export const email = 'OWNER_EMAIL_HERE';
 export const emailUrl = `mailto:${email}`;
 
-export const whatsappUrl = `https://wa.me/918955325565?text=${encodeURIComponent('Hi! I have a question about my order.')}`;
+// Café owner's WhatsApp contact
+export const whatsappUrl = `https://wa.me/918208656229?text=${encodeURIComponent('Hi! I have a question about my order.')}`;
 
-export const upiId = '8955325565@ybl';
+// Replace this placeholder with the owner's actual UPI ID
+export const upiId = 'OWNER_UPI_ID_HERE';
 export const images = {
   hero: 'https://images.hostinger.com/e583b084-6639-4665-b606-1b0161f30777.png',
   latte: 'https://images.hostinger.com/5763a701-5435-4f95-ad8c-69ed07d2e01e.png',
